@@ -1,0 +1,281 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2022-05-14T18:24:17.423Z",
+  "__export_source": "insomnia.desktop.app:v2022.3.0",
+  "resources": [
+    {
+      "_id": "req_9135b84a226441cea272d6f8c5a07af2",
+      "parentId": "wrk_54602e77be9943c29a28d19d490a1b19",
+      "modified": 1652552328777,
+      "created": 1652523823732,
+      "url": "https://secure-jk.jet.co.id/jandt-app-ifd-web/router.do",
+      "name": "Find Rates",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "",
+        "text": "method=order.findRates&format=json&v=1.0&data={\"parameter\":\"{\\\"DimensionH\\\":0.0,\\\"DimensionL\\\":0.0,\\\"DimensionW\\\":0.0,\\\"receiverAddr\\\":\\\"PURWOKERTO SELATAN\\\",\\\"senderAddr\\\":\\\"KARANG ANYAR\\\",\\\"weight\\\":16.67}\"}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "Host",
+          "value": "secure-jk.jet.co.id"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1652523823732,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_54602e77be9943c29a28d19d490a1b19",
+      "parentId": null,
+      "modified": 1652432913655,
+      "created": 1652432913655,
+      "name": "JNT API UNOFF",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_12dac2c9275b4e80826da70787e07492",
+      "parentId": "wrk_54602e77be9943c29a28d19d490a1b19",
+      "modified": 1652523845225,
+      "created": 1652434232998,
+      "url": "https://jet.co.id/index/router/index.html",
+      "name": "Get List Ciry",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "",
+        "text": "method=query%2FfindProCityArea&data=&pId=e608cf9821291a53f2ecab0659b2b5bd&pst=0baad6874eba046f180ac60fadd5d4ce"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Host",
+          "value": "jet.co.id"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"101\", \"Google Chrome\";v=\"101\""
+        },
+        {
+          "name": "X-SimplyPost-Id",
+          "value": "e608cf9821291a53f2ecab0659b2b5bd"
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded; charset=UTF-8"
+        },
+        {
+          "name": "Accept",
+          "value": "application/json, text/javascript, */*; q=0.01"
+        },
+        {
+          "name": "X-SimplyPost-Signature",
+          "value": "0baad6874eba046f180ac60fadd5d4ce"
+        },
+        {
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"Windows\""
+        },
+        {
+          "name": "Origin",
+          "value": "https://jet.co.id"
+        },
+        {
+          "name": "Sec-Fetch-Site",
+          "value": "same-origin"
+        },
+        {
+          "name": "Sec-Fetch-Mode",
+          "value": "cors"
+        },
+        {
+          "name": "Sec-Fetch-Dest",
+          "value": "empty"
+        },
+        {
+          "name": "Referer",
+          "value": "https://jet.co.id"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1652434232998,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_5ee1231f86a444dca98ff6ff78e77547",
+      "parentId": "wrk_54602e77be9943c29a28d19d490a1b19",
+      "modified": 1652523847252,
+      "created": 1652433683075,
+      "url": "https://secure-jk.jet.co.id/jandt-app-ifd-web/router.do",
+      "name": "Check Droppoint by text",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "",
+        "text": "method=site.findSitesByDistrict&format=json&v=1.0&data={\"parameter\":\"{\\\"city\\\":\\\"SRAGEN\\\",\\\"district\\\":\\\"SRAGEN\\\",\\\"province\\\":\\\"JAWA TENGAH\\\"}\"}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "Host",
+          "value": "secure-jk.jet.co.id"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1652433683075,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_1f8713b5e9164e1c99ea0b27a6236140",
+      "parentId": "wrk_54602e77be9943c29a28d19d490a1b19",
+      "modified": 1652508991886,
+      "created": 1652433455964,
+      "url": "https://secure-jk.jet.co.id/jandt-app-ifd-web/router.do",
+      "name": "Check Droppoint",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "",
+        "text": "method=site.findSitesByGPS&format=json&v=1.0&data={\"parameter\":\"{\\\"latitude\\\":-7.446290145162584,\\\"longitude\\\":109.23896994441748,\\\"radius\\\":4}\"}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "Host",
+          "value": "secure-jk.jet.co.id"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1652433455964,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_e6ae5eddcbe34dd3b4cd7bce260eb672",
+      "parentId": "wrk_54602e77be9943c29a28d19d490a1b19",
+      "modified": 1652521353768,
+      "created": 1652432918416,
+      "url": "https://secure-jk.jet.co.id/jandt-app-ifd-web/router.do",
+      "name": "Track",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "",
+        "text": "method=order.massOrderTrack&format=json&v=1.0&data={\"parameter\":\"{\\\"billCodes\\\":\\\"JP4392231394\\\",\\\"lang\\\":\\\"en\\\"}\"}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "Host",
+          "value": "secure-jk.jet.co.id"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1652432918416,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_677533a7d5dc08e3fd7736b77e46d3d974835ed3",
+      "parentId": "wrk_54602e77be9943c29a28d19d490a1b19",
+      "modified": 1652432913663,
+      "created": 1652432913663,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1652432913663,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_677533a7d5dc08e3fd7736b77e46d3d974835ed3",
+      "parentId": "wrk_54602e77be9943c29a28d19d490a1b19",
+      "modified": 1652552422703,
+      "created": 1652432913667,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_a4c3b0c50bbf4fd5ba40f4f1ba428868",
+      "parentId": "wrk_54602e77be9943c29a28d19d490a1b19",
+      "modified": 1652432913657,
+      "created": 1652432913657,
+      "fileName": "JNT API UNOFF",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
