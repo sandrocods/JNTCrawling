@@ -181,7 +181,7 @@ List of test in folder test
   python3 test_checkDropPointByDistrict.py 
 ```
 ### Running all test passed
-![App Screenshot](https://i.ibb.co/gmZWTG7/image.png)
+[![image.png](https://i.postimg.cc/Nj9dXK4y/image.png)](https://postimg.cc/jDT60dBK)
 
 ## Authors
 
