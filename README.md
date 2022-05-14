@@ -3,11 +3,11 @@
 
 Crawling menggunakan Automation program yang dibuat dengan Python3 dan menggunakan Application Programming Interface (API) sebagai jalur komunikasi dalam mendapatkan data, Dibuat untuk keperluan pembelajaran dan riset, tidak ada hal yang berbahaya
 
-
+[![Desain-tanpa-judul-3.png](https://i.postimg.cc/MTpBC1RT/Desain-tanpa-judul-3.png)](https://postimg.cc/HJFj5c6D)
 ## Demo
-![App Screenshot](https://i.ibb.co/NL64FzP/image.png)
 [![Replit](https://img.shields.io/badge/replit-000?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/@sandrocods/JNTCrawling-py#main.py)
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=JNT%20Unofficial%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fsandrocods%2FJNTCrawling-py%2Fmaster%2FInsomnia_2022-05-15.json)
 
 ## Build With
 
@@ -38,7 +38,7 @@ Crawling menggunakan Automation program yang dibuat dengan Python3 dan menggunak
 Clone the project
 
 ```bash
-  git clone https://github.com/sandrocods/JNTCrawling-py
+  git clone https://github.com/sandrocods/JNTCrawling-py/
 ```
 
 Go to the project directory
@@ -58,6 +58,7 @@ Go to the Example project directory
 ```bash
   cd example
 ```
+
 Run Example
 ```bash
   python3 Example.py
@@ -180,8 +181,12 @@ List of test in folder test
 ```bash
   python3 test_checkDropPointByDistrict.py 
 ```
-### Running all test passed
+## Running All Test Passed
+#### All tests are made with UnitTest and display the results as below
 [![image.png](https://i.postimg.cc/Nj9dXK4y/image.png)](https://postimg.cc/jDT60dBK)
+
+[![Check Result](https://img.shields.io/badge/check%20result%20Test-47C119?style=for-the-badge&logo=HTML&logoColor=white)](https://htmlpreview.github.io/?https://github.com/sandrocods/JNTCrawling-py/blob/master/Test%20Results%20-%20.html)
+
 
 ## Authors
 
