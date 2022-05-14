@@ -1,7 +1,7 @@
 
 # JNTCrawling-py
 
-Crawling menggunakan Automation program yang dibuat dengan Python3 dan menggunakan Application Programming Interface (API) sebagai jalur komunikasi dalam mendapatkan data, Dibuat untuk keperluan pembelajaran dan riset, tidak ada hal yang berbahaya
+Crawling menggunakan Automation program yang dibuat dengan Python3 dan menggunakan Application Programming Interface (API) sebagai jalur komunikasi dalam mendapatkan data, Dibuat untuk keperluan pembelajaran dan riset.
 
 [![Desain-tanpa-judul-3.png](https://i.postimg.cc/MTpBC1RT/Desain-tanpa-judul-3.png)](https://postimg.cc/HJFj5c6D)
 ## Demo
