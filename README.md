@@ -1,13 +1,26 @@
 
 # JNTCrawling-py
+<p align="left">
+
+ <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/sandrocods/JNTCrawling-py?style=for-the-badge">
+ <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/sandrocods/JNTCrawling-py?style=for-the-badge">
+ <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/sandrocods/JNTCrawling-py?style=for-the-badge">
+ <img alt="Tests Passing" src="https://github.com/sandrocods/JNTCrawling-py/actions/workflows/python-app.yml/badge.svg" />
+  
+</p>
+
 
 Crawling menggunakan Automation program yang dibuat dengan Python3 dan menggunakan Application Programming Interface (API) sebagai jalur komunikasi dalam mendapatkan data, Dibuat untuk keperluan pembelajaran dan riset.
 
+
+
 [![Desain-tanpa-judul-3.png](https://i.postimg.cc/MTpBC1RT/Desain-tanpa-judul-3.png)](https://postimg.cc/HJFj5c6D)
 ## Demo
-[![Replit](https://img.shields.io/badge/replit-000?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/@sandrocods/JNTCrawling-py#main.py)
-
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=JNT%20Unofficial%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fsandrocods%2FJNTCrawling-py%2Fmaster%2FInsomnia_2022-05-15.json)
+<p align="left">
+ <img alt="replit" href="https://replit.com/@sandrocods/JNTCrawling-py#main.py" src="https://img.shields.io/badge/replit-000?style=for-the-badge&logo=replit&logoColor=white">
+ <img alt="replit" href="https://insomnia.rest/run/?label=JNT%20Unofficial%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fsandrocods%2FJNTCrawling-py%2Fmaster%2FInsomnia_2022-05-15.json" src="https://insomnia.rest/images/run.svg">
+ 
+</p>
 
 ## Build With
 
@@ -71,7 +84,7 @@ Run Example
 
 ```python
   jnt = JntCrawling(
-    enable_log=False
+    enable_log
 )
 ```
 
@@ -109,9 +122,9 @@ jnt.checkRates(
 
 ```python
 jnt.checkRates(
-        weight=,
-        receiverAddress=,
-        senderAddress=
+        weight,
+        receiverAddress,
+        senderAddress
     )
 ```
 
@@ -164,6 +177,8 @@ jnt.checkDropPointByGPS(
 | ` longitude` | `string` | **Required**. longitude from maps  |
 | ` latitude` | `string` | **Required**. latitude from maps  |
 
+_Note: Get latitude and longitude from ISP ip address, If location not accurate, fill latitude and longitude manually._
+
 #### Check DropPoint by GPS ISP
 
 ```python
@@ -182,11 +197,6 @@ List of test in folder test
   python3 test_checkDropPointByDistrict.py 
 ```
 ## Running All Test Passed
-
-Run Test with Github Action
-
-[![JntCrawling-py Test Automation](https://github.com/sandrocods/JNTCrawling-py/actions/workflows/python-app.yml/badge.svg)](https://github.com/sandrocods/JNTCrawling-py/actions/workflows/python-app.yml)
-#
 
 #### All tests are made with UnitTest and display the results as below
 [![image.png](https://i.postimg.cc/Nj9dXK4y/image.png)](https://postimg.cc/jDT60dBK)
