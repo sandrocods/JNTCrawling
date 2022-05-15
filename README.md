@@ -182,6 +182,12 @@ List of test in folder test
   python3 test_checkDropPointByDistrict.py 
 ```
 ## Running All Test Passed
+
+Run Test with Github Action
+
+[![JntCrawling-py Test Automation](https://github.com/sandrocods/JNTCrawling-py/actions/workflows/python-app.yml/badge.svg)](https://github.com/sandrocods/JNTCrawling-py/actions/workflows/python-app.yml)
+#
+
 #### All tests are made with UnitTest and display the results as below
 [![image.png](https://i.postimg.cc/Nj9dXK4y/image.png)](https://postimg.cc/jDT60dBK)
 
