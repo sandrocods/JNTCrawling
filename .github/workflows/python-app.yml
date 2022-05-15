@@ -28,4 +28,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run Tests    
-      run: python -m unittest discover -s $GITHUB_WORKSPACE/test -t $GITHUB_WORKSPACE\test in $GITHUB_WORKSPACE\test
+      run: python -m unittest discover -s ./test -t .\test in .\test
