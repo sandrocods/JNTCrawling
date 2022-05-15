@@ -185,7 +185,7 @@ List of test in folder test
 #### All tests are made with UnitTest and display the results as below
 [![image.png](https://i.postimg.cc/Nj9dXK4y/image.png)](https://postimg.cc/jDT60dBK)
 
-[![Check Result](https://img.shields.io/badge/check%20result%20Test-47C119?style=for-the-badge&logo=HTML&logoColor=white)](https://htmlpreview.github.io/?https://github.com/sandrocods/JNTCrawling-py/blob/master/Test%20Results%20-%20.html)
+[![Check Result](https://img.shields.io/badge/check%20result%20Test-47C119?style=for-the-badge&logo=HTML&logoColor=white)](https://htmlpreview.github.io/?https://github.com/sandrocods/JNTCrawling-py/blob/master/test/Test%20Results%20-%20.html)
 
 
 ## Authors
